@@ -1,16 +1,59 @@
 body {
 	background-color: #fffefe;
+	height: 1000px;
+}
+
+/*************** LAYOUT ***************/
+
+header {
+	position: relative;
+	z-index: 1;
+	top: 0;
+	width: 100%;
+	height: 130px;
+	margin-bottom: -10px;
+	background-color: #fffefe;
+	/* Background pattern from transparenttextures.com */
+	background-image: url("../img/fresh-snow.png");
 }
 
 .nav {
 	background-color: #fffefe;
-	position: fixed;
+	position: relative;
 	z-index: 1;
-	top: 100px;
-	left: 15%;
+	top: 0;
+	left: 12%;
 	width: 130px;
-	height: 220px;
+	height: 240px;
+	/* Background pattern from transparenttextures.com */
+	background-image: url("../img/fresh-snow.png");
 }
+
+.wrapper_home,
+.wrapper_about,
+.wrapper_contact {
+	position: relative;
+	z-index: 0;
+	top: -240px;
+	width: 100%;
+	height: 2000px;
+	/* Background pattern from transparenttextures.com */
+	background-image: url("../img/asfalt-light.png");
+}
+
+.wrapper_home {
+	background-color: red;
+}
+
+.wrapper_about {
+	background-color: blue;
+}
+
+.wrapper_contact {
+	background-color: #d3d3d3;
+}
+
+/*************** NAV ***************/
 
 .nav ul {
 	list-style-type: none;
@@ -18,7 +61,7 @@ body {
 	padding-left: 20px;
 }
 
-.nav li{
+.nav li {
 	padding-bottom: 10px;
 }
 
@@ -29,18 +72,23 @@ body {
 	font-size: 1.2em;
 }
 
-.wrapper {
-	background-color: red;
-	position: fixed;
-	z-index: 0;
-	top: 100px;
-	width: 100%;
-	height: 800px;
+/*************** LINKS ***************/
+
+a:link,
+a:visited {
+	text-decoration: none;
 }
 
-header {
-	width: 100%;
-	height: 100px;
-	background-color: #fffefe;
-	margin: 0;
+a:focus {
+	background: #d3d3d3;
 }
+
+a:hover {
+	color: #000;
+}
+
+a:active {
+	color: #000;
+}
+
+/****/
