@@ -25,6 +25,7 @@ header {
 	left: 12%;
 	width: 130px;
 	height: 240px;
+	border-right: 1px dashed black;
 	/* Background pattern from transparenttextures.com */
 	background-image: url("../img/fresh-snow.png");
 }
@@ -43,14 +44,17 @@ header {
 
 .wrapper_home {
 	background-color: red;
+	border-top: 1px dashed black;
 }
 
 .wrapper_about {
 	background-color: blue;
+	border-top: 1px dashed black;
 }
 
 .wrapper_contact {
 	background-color: #d3d3d3;
+	border-top: 1px dashed black;
 }
 
 /*************** NAV ***************/
