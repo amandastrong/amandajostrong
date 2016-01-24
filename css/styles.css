@@ -115,25 +115,25 @@ header {
 .profilepic {
 	position: relative;
 	float: left;
-	width: 70%;
-	height: 500px;
-	margin-bottom: 10px;
+	width: 60%;
+	height: 590px;
+	margin-bottom: 0;
 
 }
 
 .profilepic img {
-	max-height: 500px;
+	max-height: 1000px;
 	margin-right: 10px;
-	width: 100%;
+	width: 120%;
 	border-left: 1px dashed black;
 }
 
 .about {
 	position: relative;
 	float: left;
-	width: 29%; 
-	height: auto;
-	margin-bottom: 10px;
+	width: 40%; 
+	height: 590px;
+	margin-bottom: 0;
 }
 
 .education {
